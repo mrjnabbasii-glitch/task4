@@ -1,0 +1,60 @@
+:root {
+  font-family: 'Vazirmatn', Tahoma, Arial, sans-serif;
+  color: #173040;
+  background: #f5f7f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: 'Vazirmatn', Tahoma, Arial, sans-serif;
+}
+
+.app-header {
+  background: linear-gradient(120deg, #083f57, #0b607c);
+  box-shadow: 0 4px 20px rgba(16, 42, 58, 0.18);
+}
+
+.app-toolbar {
+  max-width: 1448px;
+  min-height: 70px;
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+
+.toolbar-subtitle {
+  margin-top: 2px;
+  font-size: 0.72rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.q-field,
+.q-btn,
+.q-chip,
+.q-badge,
+.q-dialog {
+  font-family: 'Vazirmatn', Tahoma, Arial, sans-serif;
+}
+
+@media (max-width: 599px) {
+  .app-toolbar {
+    padding-inline: 12px;
+  }
+
+  .app-toolbar > .q-chip {
+    display: none;
+  }
+}
